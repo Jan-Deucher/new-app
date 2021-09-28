@@ -1,6 +1,7 @@
 import React from "react";
 
-import PromotionCard from "./components/Promotion/Card/Card.js";
+
+import PromotionCard from "components/Promotion/Card/Card";
 
 const App = () => {
   const promotion = {
