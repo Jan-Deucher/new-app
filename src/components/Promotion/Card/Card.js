@@ -20,7 +20,7 @@ const PromotionCard = ({ promotion }) => (
           className="promotion-card__link">
           IR PARA O SITE
         </a>
-        <Link to = {"/edit/id"}>Editar
+        <Link to = {`/edit/${promotion.id}`}>Editar
         
         </Link>
       </footer>
